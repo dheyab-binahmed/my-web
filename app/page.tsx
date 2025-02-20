@@ -1,13 +1,17 @@
-import { RainbowButton } from "@/components/magicui/rainbow-button";
-import Image from "next/image";
+import About from "./about";
+import Skills from "./skills";
+import Projects from "./projects";
 
 export default function Home() {
   return (
     <div>
-      <RainbowButton>Get Unlimited Access</RainbowButton>
-      <div>
-        <h1 className="text-xs">hello</h1>
-      </div>
+      <section className="section">
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>Welcome to my portfolio website!</p>
+      </section>
+      <About />
+      <Skills />
+      <Projects />
     </div>
   );
 }
